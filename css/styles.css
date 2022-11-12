@@ -13,13 +13,15 @@ body {
 #wateringcan {
     width: 200px;
     position: fixed;
-    bottom: 20%;
+    bottom: 40%;
     left: 40%;
 }
 
 
 .waterdrop {
     width: 20px;
+    display:block;
+    position: absolute;
 }
 
 #net {
@@ -58,4 +60,9 @@ body {
     background-repeat: repeat-x;
     background-position: bottom;
     overflow: hidden;
+}
+.drops{
+    width:100px;
+    position:relative;
+    height: 200px;
 }
