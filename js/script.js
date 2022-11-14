@@ -8,8 +8,9 @@ var position = wateringcan.position();
 
 $(".drops").css({
     "left": position.left,
-    "top": position.top - 20,
+    "top": position.top + wateringcan.height(),
     "right": position.right,
+    "background-color": "green"
 });
 wateringcan.on("click", function () {
     if (transform  === true) {
@@ -37,20 +38,20 @@ wateringcan.on("click", function () {
 
 function drop1() {
     $("#1").each(function () {
-        $(this).fadeIn().offset({top: position.top}).animate({top: "90%"},"slow", function () {
+        $(this).fadeIn().offset({top: position.top +20 }).animate({top: "90%"},"slow", function () {
             drop1()});
     })
 }
 
 function drop2() {
     $("#2").each(function () {
-        $(this).fadeIn().offset({top: position.top}).animate({top: "90%"}, "slow", function () {
+        $(this).fadeIn().offset({top: position.top +20}).animate({top: "90%"}, "slow", function () {
             drop2()});
     })
 }
 function drop3() {
     $("#3").each(function () {
-        $(this).fadeIn().offset({top: position.top}).animate({top: "90%"}, "slow", function () {
+        $(this).fadeIn().offset({top: position.top + 20}).animate({top: "90%"}, "slow", function () {
             drop3()});
     })
 }
