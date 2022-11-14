@@ -5,7 +5,9 @@ body {
 
 
 #butterfly {
+    z-index: 1;
     height: 200px;
+
     width: auto;
     position: absolute;
 }
@@ -17,8 +19,19 @@ body {
     left: 40%;
 }
 
+#sea{
+    z-index: 2;
+    position: absolute;
+    height: 1500px;
+    width: auto;
+}
 
 .waterdrop {
+    width: 20px;
+}
+.waterdrop2 {
+    position: absolute;
+    top: 150px;
     width: 20px;
 }
 
@@ -29,6 +42,14 @@ body {
 
 }
 
+#cloud{
+    z-index: 4  ;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    width: auto;
+    position: absolute;
+}
 .apple {
     height: 50px;
     width: auto;
@@ -50,6 +71,12 @@ body {
 
 }
 
+#pirateShip{
+    z-index: 3;
+    height: 300px;
+    width: auto;
+    position: absolute;
+}
 
 body {
     margin: 0px;
