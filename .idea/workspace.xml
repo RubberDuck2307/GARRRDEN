@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3eae9c4-8f1e-4740-89f5-9edbc4f6c21e" name="Changes" comment="net and pirate ship">
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="b3eae9c4-8f1e-4740-89f5-9edbc4f6c21e" name="Changes" comment="net and pirate ship" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
