@@ -10,7 +10,6 @@ $(".drops").css({
     "left": position.left,
     "top": position.top + wateringcan.height(),
     "right": position.right,
-    "background-color": "green"
 });
 wateringcan.on("click", function () {
     if (transform  === true) {
@@ -55,7 +54,21 @@ function drop3() {
             drop3()});
     })
 }
+
 // end of watering can
+// bullet shooting - Anna Andrlová
+var bullet = $("#bullet");
+bullet.hide();
+$("#pirateShip").click(function(){
+    bullet.show();
+    bullet.offset({left: $("#pirateShip").position().left, top:500 })
+    bullet.animate({"left":-20}, 800);
+    bullet.fadeOut();
+});
+
+
+
+
 
 function raining() {
     $(".waterdrop2").each(function () {

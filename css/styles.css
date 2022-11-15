@@ -19,6 +19,7 @@ body {
     left: 40%;
 }
 
+
 #sea{
     z-index: 2;
     position: absolute;
@@ -92,4 +93,10 @@ body {
     width:100px;
     position:relative;
     height: 200px;
+}
+#bullet{
+    z-index: 5;
+    position: absolute;
+    transform: scaleX(-1);
+    max-width: 50px;
 }
