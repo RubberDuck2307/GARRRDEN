@@ -35,19 +35,33 @@ body {
     position: absolute;
 }
 
-#tree {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-
-}
-
 .basket {
     width: 200px;
     position: fixed;
     bottom: 20px;
     left: 20%;
 
+}
+
+.flower {
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    left: 85%;
+}
+
+.bumblebee {
+    width: 70px;
+    position: fixed;
+    bottom: 110px;
+    left: 88%;
+}
+
+.transformer {
+    width: 400px;
+    position: fixed;
+    bottom: 20px;
+    left: 78%;
 }
 
 
@@ -58,4 +72,19 @@ body {
     background-repeat: repeat-x;
     background-position: bottom;
     overflow: hidden;
+}
+
+#tree {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+
+}
+
+#randDiv {
+    position: fixed;
+    bottom: 350px;
+    left: 52%;
+    height: 350px;
+    width: 650px;
 }
