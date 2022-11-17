@@ -1,4 +1,29 @@
 //MAKE THE MAGIC HAPPEN
+
+//BUMBLEBEE Alexandro
+
+$(".transformer").hide();
+$(".bumblebee").on("click", function(){
+    $(".transformer").show();
+    console.log("Works");
+});
+$(".transformer").on("click", function(){
+    $(".transformer").hide();
+
+    console.log("Works");
+});
+
+//APPLES Alexandro
+
+$(document).ready(function() {
+    $(".apple").each(function(idx, img) {
+        $(img).css({
+            left: Math.random() * ($(".randDiv").width() - $(this).width()),
+            top: Math.random() * ($(".randDiv").height() - $(this).height())
+        });
+    });
+});
+
 //Anna Andrlová, wateringcan
 var waterdrop = $(".waterdrop");
 waterdrop.css({"display": "none"});
@@ -177,3 +202,72 @@ $(document).bind("mousemove", function (e) {
 
 
 butterfly_movement()
+
+//Christos
+
+$("#apple1").click(function (){
+    $("#apple1").animate({left:$("#basketfront").offset().left});
+    console.log("fuck")
+})
+$("#apple2").click(function (){
+    $("#apple2").animate.$("#basketfront").offset().left;
+})
+$("#apple3").click(function (){
+    $("#apple3").animate.$("#basketfront").offset().left;
+})
+
+var change = {             //Representing the keyboard's keys
+    37: {
+        left: "-=1"
+    },
+
+    38: {
+        top: "-=1"
+    },
+
+    39: {
+        left: "+=1"
+    },
+
+    40: {
+        top: "+=1"
+    },
+}
+$(document).one("keydown", keyDown)
+
+var going;
+
+function keyDown(e) {
+    console.log("down")
+    $(document).one("keyup", keyup)
+    var animation = change[e.which];
+    going = setInterval(keepGoing, 1);
+
+    function keepGoing() {
+        $(".worm").css(animation)
+    }
+
+}
+
+function keyup(e) {
+    console.log("up")
+    clearInterval(going)
+    $(document).one("keydown", keyDown)
+}
+
+$("#moon").hide();
+$(document).ready(function () {
+    $("#sun").click(function(){
+        $("body").css("background-color", "midnightblue");
+        $("#sun").hide();
+        $("#moon").show();
+
+    })
+
+    $('#moon').click(function(){
+        $("body").css("background-color", "lavenderblush");
+        $("#moon").hide();
+        $("#sun").show();
+
+    })
+})

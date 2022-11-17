@@ -19,7 +19,6 @@ body {
     left: 40%;
 }
 
-
 #sea{
     z-index: 2;
     position: absolute;
@@ -84,19 +83,81 @@ body {
 body {
     margin: 0px;
     background-image: url("../images/grass.png");
-    background-attachment: fixed;
+    background-color: lavenderblush;
     background-repeat: repeat-x;
     background-position: bottom;
     overflow: hidden;
 }
-.drops{
-    width:100px;
-    position:relative;
+.drops {
+    width: 100px;
+    position: relative;
     height: 200px;
 }
-#bullet{
+
+#bullet {
     z-index: 5;
     position: absolute;
     transform: scaleX(-1);
     max-width: 50px;
 }
+
+.bumblebee {
+    width: 70px;
+    position: absolute;
+    bottom: 110px;
+    z-index: 1;
+    left: 88%;
+}
+
+.transformer {
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    left: 78%;
+    z-index: 1;
+
+}
+
+.flower {
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    left: 85%;
+}
+
+.randDiv {
+    position: fixed;
+    bottom: 350px;
+    left: 52%;
+    height: 350px;
+    width: 650px;
+}
+
+#sun{
+    z-index: 4  ;
+    height: 180px;
+    left: -60px;
+    top: 10px;
+    width: auto;
+    position: absolute;
+
+}
+
+#moon{
+    z-index: 4  ;
+    height: 200px;
+    left: 30px;
+    top: 15px;
+    width: auto;
+    position: absolute;
+}
+
+.worm {
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    left: 65%;
+}
+
+
+
