@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3eae9c4-8f1e-4740-89f5-9edbc4f6c21e" name="Changes" comment="net and pirate ship">
+    <list default="true" id="b3eae9c4-8f1e-4740-89f5-9edbc4f6c21e" name="Changes" comment="update script and css file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668413604917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update script and css file">
+      <created>1668528385950</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668528385950</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,10 +87,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="net and pirate ship" />
-    <option name="LAST_COMMIT_MESSAGE" value="net and pirate ship" />
+    <MESSAGE value="update script and css file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update script and css file" />
   </component>
 </project>

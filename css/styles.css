@@ -93,3 +93,42 @@ body {
     position:relative;
     height: 200px;
 }
+
+#bullet {
+    z-index: 5;
+    position: absolute;
+    transform: scaleX(-1);
+    max-width: 50px;
+}
+
+.bumblebee {
+    width: 70px;
+    position: absolute;
+    bottom: 110px;
+    z-index: 1;
+    left: 88%;
+}
+
+.transformer {
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    left: 78%;
+    z-index: 1;
+
+}
+
+.flower {
+    width: 200px;
+    position: absolute;
+    bottom: 20px;
+    left: 85%;
+}
+
+.randDiv {
+    position: fixed;
+    bottom: 350px;
+    left: 52%;
+    height: 350px;
+    width: 650px;
+}

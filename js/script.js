@@ -3,11 +3,14 @@
 //BUMBLEBEE Alexandro
 
 $(".transformer").hide();
-$(".bumblebee").click(function(){
+$(".bumblebee").on("click", function(){
     $(".transformer").show();
+    console.log("Works");
 });
-$(".transformer").click(function(){
+$(".transformer").on("click", function(){
     $(".transformer").hide();
+
+    console.log("Works");
 });
 
 //APPLES Alexandro
