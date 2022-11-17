@@ -167,6 +167,10 @@ $("#butterfly").bind("mouseenter", function (e) {
     })
 })
 
+$("#apple1").click(function (){
+    $("#apple1").animate({"left":-($("#tree").offset().left - $("#basketfront").offset().left), "top": -($(".randDiv").offset().top) + $("#basketfront").offset().top })
+})
+
 $("#cloud").click(function () {
         if (is_raining) {
             $(".waterdrop2").each(function () {

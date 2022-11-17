@@ -44,18 +44,29 @@ body {
 
 }
 
-#cloud{
-    z-index: 4  ;
+#cloud {
+    z-index: 4;
     height: 200px;
     left: 100px;
     top: 100px;
     width: auto;
     position: absolute;
 }
+
+.randDiv{z-index: 2
+}
 .apple {
+    z-index: 500;
     height: 50px;
     width: auto;
     position: absolute;
+}
+#apple4 {
+    z-index: 500;
+    height: 50px;
+    width: auto;
+    position: absolute;
+    left: 400px;
 }
 
 #tree {
