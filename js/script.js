@@ -167,9 +167,7 @@ $("#butterfly").bind("mouseenter", function (e) {
     })
 })
 
-$("#apple1").click(function (){
-    $("#apple1").animate({"left":-($("#tree").offset().left - $("#basketfront").offset().left), "top": -($(".randDiv").offset().top) + $("#basketfront").offset().top })
-})
+
 
 $("#cloud").click(function () {
         if (is_raining) {
@@ -209,14 +207,13 @@ butterfly_movement()
 //Christos
 
 $("#apple1").click(function (){
-    $("#apple1").animate({left:$("#basketfront").offset().left});
-    console.log("fuck")
+    $("#apple1").animate({"left":-($("#tree").offset().left - $("#basketfront").offset().left), "top": -($(".randDiv").offset().top) + $("#basketfront").offset().top })
 })
 $("#apple2").click(function (){
-    $("#apple2").animate.$("#basketfront").offset().left;
+    $("#apple2").animate({"left": 20-($("#tree").offset().left - $("#basketfront").offset().left), "top": -($(".randDiv").offset().top) + $("#basketfront").offset().top })
 })
 $("#apple3").click(function (){
-    $("#apple3").animate.$("#basketfront").offset().left;
+    $("#apple3").animate({"left":40-($("#tree").offset().left - $("#basketfront").offset().left), "top": -($(".randDiv").offset().top) + $("#basketfront").offset().top })
 })
 
 var change = {             //Representing the keyboard's keys

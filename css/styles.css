@@ -126,6 +126,7 @@ body {
 }
 
 .randDiv {
+    z-index: 2;
     position: fixed;
     bottom: 350px;
     left: 52%;
