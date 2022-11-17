@@ -82,19 +82,19 @@ function drop3() {
 
 // end of watering can
 // bullet shooting - Anna Andrlová
+
 var bullet = $("#bullet");
 bullet.hide();
 $("#pirateShip").click(function(){
     bullet.show();
-    bullet.offset({left: $("#pirateShip").position().left, top:500 })
-    bullet.animate({"left":-20}, 800);
-    bullet.fadeOut();
+    bullet.offset({left: $("#pirateShip").position().left, top:600 })
+    bullet.animate({"left":-100}, 200, "linear");
 });
 
 
 
 
-
+// Jan Metela
 function raining() {
     $(".waterdrop2").each(function () {
         let x = Math.floor(Math.random() * 1000)
@@ -119,11 +119,11 @@ let audio = new Audio("audio/Irish Rovers - What Will We Do With a Drunken Sailo
 let ship = false
 
 function sea_raising() {
-    let y = 200
+    let y = 220
     if ($("#sea").offset().top < 200) {
         y = 0
         if (!ship) {
-            $("#pirateShip").offset({"top": 300, left: "-400"})
+            $("#pirateShip").offset({left: -400})
             $("#pirateShip").show()
             audio.play()
             $("#pirateShip").animate({"left": 400}, 5000)
@@ -155,7 +155,7 @@ $(".waterdrop2").each(function () {
     x += 20
 })
 let is_raining = false
-
+$("#pirateShip").offset({top: 400})
 
 $("#butterfly").bind("mouseenter", function (e) {
     $("#butterfly").stop(true)
@@ -165,6 +165,10 @@ $("#butterfly").bind("mouseenter", function (e) {
     }, 500, function () {
         butterfly_movement()
     })
+})
+
+$("#apple1").click(function (){
+    $("#apple1").animate({"left":-($("#tree").offset().left - $("#basketfront").offset().left), "top": -($(".randDiv").offset().top) + $("#basketfront").offset().top })
 })
 
 $("#cloud").click(function () {
@@ -178,7 +182,6 @@ $("#cloud").click(function () {
             audio.pause()
             $("#pirateShip").stop(true)
             $("#pirateShip").hide()
-            $("#pirateShip").offset({"left":-400})
             ship = false
             is_raining = false
 
