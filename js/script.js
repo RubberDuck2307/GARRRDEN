@@ -221,17 +221,10 @@ var change = {             //Representing the keyboard's keys
         left: "-=1"
     },
 
-    38: {
-        top: "-=1"
-    },
-
     39: {
         left: "+=1"
     },
 
-    40: {
-        top: "+=1"
-    },
 }
 $(document).one("keydown", keyDown)
 

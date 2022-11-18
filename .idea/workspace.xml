@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3eae9c4-8f1e-4740-89f5-9edbc4f6c21e" name="Changes" comment="worm sun moon" />
+    <list default="true" id="b3eae9c4-8f1e-4740-89f5-9edbc4f6c21e" name="Changes" comment="worm sun moon">
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,11 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/bolfa/Downloads/The3rdAssignment/The3rdAssignment",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GARRRDEN/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -59,6 +64,7 @@
       <workItem from="1668336762586" duration="3177000" />
       <workItem from="1668413520646" duration="381000" />
       <workItem from="1668418334727" duration="320000" />
+      <workItem from="1668757021585" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="net and pirate ship">
       <created>1668413604917</created>

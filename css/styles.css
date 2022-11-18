@@ -20,7 +20,7 @@ body {
 }
 
 #sea{
-    z-index: 2;
+    z-index: 4;
     position: absolute;
     height: 1500px;
     width: auto;
@@ -56,6 +56,7 @@ body {
     height: 50px;
     width: auto;
     position: absolute;
+    z-index: 1;
 }
 
 #tree {
@@ -78,6 +79,7 @@ body {
     height: 300px;
     width: auto;
     position: absolute;
+    z-index: 5;
 }
 
 body {
@@ -126,7 +128,7 @@ body {
 }
 
 .randDiv {
-    z-index: 2;
+    z-index: 1;
     position: fixed;
     bottom: 350px;
     left: 52%;
@@ -158,6 +160,11 @@ body {
     position: absolute;
     bottom: 20px;
     left: 65%;
+    z-index: 3;
+}
+
+#basketfront {
+    z-index: 2;
 }
 
 
